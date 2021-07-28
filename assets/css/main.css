@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* background (main-page) */
+
+.wrapper {
+    position: relative;
+    height: 80vh;
+    background-color: blueviolet;
+}
+
+.custom-shape-divider-bottom-1627462803 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1627462803 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 149px;
+}
+
+.custom-shape-divider-bottom-1627462803 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+/* navbar */
+
+.title {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 0 20px;
+    padding: 20px 0 0 0;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+  }
+  
+.top-menu  li {
+    float: left;
+  }
+  
+.top-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.txt1 {
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+/* about me */
+
+.my-photo {
+    width: 300px;
+    height: 300px;
+    margin-top: 300px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+.about {
+    color: black;
+    margin-right: 100px;
+    margin-top: 300px;
+    float: right;
+}
+
+/* portfolio */
+
+.portfolio {
+    width: auto;
+    height: 80vh;
+}
+
+.project-img img{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.title2 {
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Contact Me */
+
+.informations {
+    float: right;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.title3 {
+    text-align: center;
+    justify-content: center;
+}
+
+/* contact form */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
